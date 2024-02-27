@@ -1,0 +1,555 @@
+.home{
+
+    margin-top: -65px;
+
+    .hero{
+    height: 500px;
+    
+    background-color: palevioletred;
+    background-repeat: no-repeat;
+        background-position: 60% 50%;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url(../images/hero\ copy.jpg)                  
+
+    }
+
+    .title{
+        color: $cite-white;
+        font-family: 'Gill Sans';
+        font-size: 60px;
+        text-align: center;
+        padding-top: 160px;
+        cursor: default;
+    }
+
+    .content{
+        width: 416px;
+        height: 46px;
+        color: $cite-white;
+        margin: 0 auto;
+        font-family: 'Gill Sans';
+        font-size: 20px;
+        padding-top: 40px;
+        text-align: center;
+        font-style: italic;
+        cursor: default;
+    }
+
+    .button{
+        
+        text-align: center;
+        padding-top: 65px;
+
+
+        .read{
+            height: 50px;
+            width: 140px;
+            background-color: $cite-blue;
+            color: $cite-white;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-family: 'Gill Sans';
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+       }
+    }
+
+
+    .specials{
+        width: $home-content-width;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 50px auto 0 auto ;
+
+
+        .box{
+            height: 304px;
+            width: 236px;
+            background-color: palevioletred;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../images/tour-01\ copy.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;     
+        }
+
+        .box-two{
+            height: 304px;
+            width: 236px;
+            background-color: palevioletred;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../images/tour-02\ copy.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;  
+        }
+
+
+
+        .box-three{
+            height: 304px;
+            width: 236px;
+            background-color: palevioletred;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../images/tour-03\ copy.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;  
+        }
+
+        .location{
+            color: $cite-white;
+            font-size: 35px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 70px;
+            font-family: 'Gill Sans';
+            letter-spacing: 2px;
+            cursor: default;
+
+        }
+
+
+        .text{
+            color: $cite-white;
+            font-size: 25px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 10px;
+            font-family: 'Gill Sans';
+            letter-spacing: 2px;
+            cursor: default;
+        }
+
+        .button-two{
+        
+            text-align: center;
+            padding-top: 50px;
+    
+    
+            .read{
+                height: 40px;
+                width: 133px;
+                background-color: $cite-blue;
+                color: $cite-white;
+                text-transform: uppercase;
+                font-size: 15px;
+                font-family: 'Gill Sans';
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+           }
+        }
+    }
+
+
+    .form{
+
+        padding-top: 60px;
+        min-height: 900px;
+        max-width: $home-content-width;
+        background-color: none;
+        margin: 0 auto;
+        cursor: default;
+
+
+        .book{
+            color: $cite-black;
+            width: 255px;
+            height: 60px;
+            font-size: 45px;
+            font-family: 'Gill Sans';
+        }
+
+
+       .name{
+            height: 58px;
+            width: 344px;
+            border-color: $cite-blue;
+            border:  2px solid;
+            border-color: $cite-blue;
+            padding-left: 20px;
+            font-size: 18px;
+        }
+
+        .email{
+            height: 58px;
+            width: 453px;
+            border-color: $cite-blue;
+            border:  2px solid;
+            border-color: $cite-blue;
+            padding-left: 20px;
+            font-size: 18px;
+            margin-left: 5px;
+        }
+
+        .country{
+            height: 58px;
+            width: 344px;
+            border-color: $cite-blue;
+            border:  2px solid;
+            border-color: $cite-blue;
+            padding-left: 20px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .hotel{
+            height: 58px;
+            width: 453px;
+            border-color: $cite-blue;
+            border:  2px solid;
+            border-color: $cite-blue;
+            padding-left: 20px;
+            font-size: 18px;
+            margin-left: 5px;
+        }
+
+        .check-in{
+            height: 58px;
+            width: 698px;
+            border-color: $cite-blue;
+            border:  2px solid;
+            border-color: $cite-blue;
+            padding-left: 20px;
+            font-size: 18px;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+
+        .label{
+            font-size: 18px;
+            margin-left: 10px;
+            font-family: 'Gill Sans';
+        }
+
+        
+
+
+        .check-out{
+            height: 58px;
+            width: 698px;
+            border-color: $cite-blue;
+            border:  2px solid;
+            border-color: $cite-blue;
+            padding-left: 20px;
+            font-size: 18px;
+            margin-left: 18px;
+            margin-top: 10px;
+            position: relative;
+        }
+
+        .label-two{
+            font-size: 18px;
+            margin-left: 10px;
+            font-family: 'Gill Sans';
+        }
+
+        
+
+        .adult{
+            width: 103px;
+            height: 58px;
+            font-size: 18px;
+            margin-top: 30px;
+            border-color: $cite-blue;
+            border: 2px solid;
+            border-color: $cite-blue;
+            margin-left: 55px;
+        }
+
+        .label-adult{
+            font-size: 18px;
+            margin-left: 10px;
+            font-family: 'Gill Sans';
+        }
+
+        .child{
+            width: 103px;
+            height: 58px;
+            font-size: 18px;
+            margin-top: 30px;
+            border-color: $cite-blue;
+            border: 2px solid;
+            border-color: $cite-blue;
+            margin-left: 55px;
+        }
+
+        .label-child{
+            font-size: 18px;
+            margin-left: 70px;
+            font-family: 'Gill Sans';
+        }
+
+        .room{
+            width: 103px;
+            height: 58px;
+            font-size: 18px;
+            margin-top: 30px;
+            border-color: $cite-blue;
+            border: 2px solid;
+            border-color: $cite-blue;
+            margin-left: 55px;
+        }
+
+        .label-room{
+            font-size: 18px;
+            margin-left: 110px;
+            font-family: 'Gill Sans';
+        }
+
+        .mess{
+            height: 192px;
+            width: 818px;
+            border-color: $cite-blue;
+            border:  2px solid;
+            border-color: $cite-blue;
+            padding-left: 20px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .submit{
+            text-align: center;
+            padding-top: 30px;
+
+
+            .submit-button{
+                width: 813px;
+                height: 61px;
+                background-color: $cite-blue;
+                color: $cite-white;
+                text-transform: uppercase;
+                font-size: 15px;
+                font-family: 'Gill Sans';
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+        }
+
+       
+    }
+
+}
+
+
+@media all and (max-width: 820px) {
+
+    .home{
+        .hero{
+
+        }
+   
+    .specials{
+
+        flex-direction: column;
+        
+
+        .box{
+            
+            margin-bottom: 30px;
+                
+        }
+
+        .box-two{
+            
+            margin-bottom: 30px;
+        }
+
+        .box-three{
+            margin-bottom: 30px;
+           
+        }
+
+        .location{
+            
+    
+        }
+
+        .text{
+            
+        }
+
+        .button-two{
+    
+    
+            .read{
+                
+           }
+        }
+    }
+
+    .form{
+
+        flex-direction: column;
+
+
+        .book{
+            
+            color: $cite-black;
+            width: 255px;
+            height: 60px;
+            font-size: 45px;
+            font-family: 'Gill Sans';
+            margin-left: 250px;
+        }
+
+
+        .name{
+            height: 58px;
+            width: 453px;
+
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+
+        .email{
+            height: 58px;
+            width: 453px;
+
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+
+        .country{
+            height: 58px;
+            width: 453px;
+            
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+
+        .hotel{
+            height: 58px;
+            width: 453px;
+            
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+
+        .check-in{
+
+            height: 58px;
+            width: 698px;
+            border-color: $cite-blue;
+            border:  2px solid;
+            border-color: $cite-blue;
+            padding-left: 20px;
+            font-size: 18px;
+            margin-left: 18px;
+            margin-top: 10px;
+            position: relative;
+            
+        }
+
+        .label{
+
+            font-size: 18px;
+            margin-left: 20px;
+            
+        }
+
+        
+
+
+        .check-out{
+
+            height: 58px;
+            width: 698px;
+            border-color: $cite-blue;
+            border:  2px solid;
+            border-color: $cite-blue;
+            padding-left: 20px;
+            font-size: 18px;
+            margin-left: 18px;
+            margin-top: 10px;
+            position: relative;
+            
+        }
+
+        .label-two{
+            font-size: 18px;
+            margin-left: 20px;
+        }
+
+        
+
+        .adult{
+            width: 40px;
+            height: 58px;
+            font-size: 18px;
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+
+        .label-adult{
+            font-size: 18px;
+            margin-left: 200px;
+            font-family: 'Gill Sans';
+        }
+
+        .child{
+            width: 40px;
+            height: 58px;
+            font-size: 18px;
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+
+        .label-child{
+            font-size: 18px;
+            margin-left: 5px;
+            font-family: 'Gill Sans';
+        }
+
+        .room{
+            width: 40px;
+            height: 58px;
+            font-size: 18px;
+            margin-top: 30px;
+            margin-left: 10px;
+            
+        }
+
+        .label-room{
+            font-size: 18px;
+            margin-left: 5px;
+            font-family: 'Gill Sans';
+        }
+
+        .mess{
+
+            height: 192px;
+            width: 430px;
+            margin-top: 20px;
+            margin-left: 160px;
+            
+        }
+
+        .submit{
+
+            text-align: center;
+            padding-top: 30px;
+            
+
+
+            .submit-button{
+
+                width: 413px;
+                height: 61px;
+                margin-bottom: 30px;
+                
+            }
+        }
+
+       
+    }
+
+}
+
+}
+
